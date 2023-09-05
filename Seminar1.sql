@@ -1,0 +1,14 @@
+SELECT product_name, manufacturer, price 
+FROM mobile_phones 
+WHERE product_count > 2;
+
+SELECT * FROM mobile_phones WHERE manufacturer ='Samsung';
+
+SELECT * FROM mobile_phones WHERE product_name LIKE 'iPhone%';
+
+SELECT * FROM mobile_phones WHERE product_name LIKE 'Galaxy%';
+
+SELECT * FROM mobile_phones WHERE product_name NOT LIKE '%[0-9]%';
+
+SELECT * FROM mobile_phones WHERE product_name LIKE '%8%';
+
